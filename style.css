@@ -2678,7 +2678,26 @@ body:not(.rtl)
 }
 
 @media screen and (max-width: 768px) {
+
+  .roadmap-main{
+    max-width: 767px;
+    margin: 0 auto;
+  }
+
   .roadmap-div{
     flex-direction: column;
+  }
+
+  .road-card{
+    height: 70vh;
+    width: 100%;
+  }
+
+  .road-title{
+    font-size: 55px;
+  }
+
+  .mob-div{
+    display: none;
   }
 }
