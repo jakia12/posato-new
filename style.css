@@ -406,7 +406,8 @@
   .elementor-element.elementor-element-99a3871
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
-  background-image: url("https://cobithedog.com/wp-content/uploads/2025/03/house-blue1-thunder.jpg");
+    /* background: white; */
+  /* background-image: url("https://cobithedog.com/wp-content/uploads/2025/03/house-blue1-thunder.jpg"); */
   background-position: center center;
   background-size: cover;
 }
@@ -429,7 +430,7 @@
   .elementor-element.elementor-element-99a3871
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer::before {
-  background-color: #0b111b;
+  background-color: #4bc3ff;
   --background-overlay: "";
 }
 .elementor-48
@@ -2626,3 +2627,58 @@ body:not(.rtl)
 /* Start JX Custom Fonts CSS *//* End JX Custom Fonts CSS */
 /* Start JX Custom Fonts CSS *//* End JX Custom Fonts CSS */
 /* Start JX Custom Fonts CSS *//* End JX Custom Fonts CSS */
+
+
+.roadmap-main{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 5%;
+}
+
+.road-title{
+  font-family: "Bowlby One", Sans-serif;
+  font-size: 120px;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 8%;
+
+}
+
+.roadmap-div{
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+
+}
+
+.road-card{
+  color: white;
+  text-align: left;
+  padding: 25px;
+  border: 2px solid white;
+  border-radius: 12px;
+  margin: 10px;
+  width: 350px;
+  height: 30vw;
+  max-width: 100%;
+}
+
+.road-card h3{
+  color: white;
+  font-family: "Bowlby One", Sans-serif;
+  font-size: 24px;
+
+}
+.road-card p{
+  color: white;
+  font-family: "Quicksand", Sans-serif;
+  font-size: 22px;
+}
+
+@media screen and (max-width: 768px) {
+  .roadmap-div{
+    flex-direction: column;
+  }
+}
